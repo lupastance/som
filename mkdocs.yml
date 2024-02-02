@@ -1,0 +1,31 @@
+site_name: Sistemas Operativos Monopuesto
+
+nav:
+  - Inicio: index.md
+  - Ejercicios: ejercicios.md
+
+theme:
+  name: material
+
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  plugins:
+    - search:
+        lang: es
+  
+  features:
+    - search.suggest
+    - search.highlight
+    - header.autohide
+
+extra:
+  generator: false
